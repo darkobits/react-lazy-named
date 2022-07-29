@@ -1,7 +1,9 @@
 {
   "extends": "@darkobits/ts",
   "include": ["src"],
+  "exclude": ["fixtures"],
   "compilerOptions": {
+    "rootDir": "src",
     "baseUrl": "src",
     "outDir": "dist",
     "jsx": "react"

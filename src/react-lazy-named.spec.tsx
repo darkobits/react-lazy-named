@@ -9,6 +9,7 @@ afterEach(cleanup);
 
 describe('lazy', () => {
   describe('using a named export that maps to a React component', () => {
+    // @ts-ignore; File is outside `rootDir`.
     const { First } = lazy(async () => import('../fixtures/Components'));
 
     it('should return a lazy React component', () => {
