@@ -65,10 +65,23 @@ export const App = () => {
 }
 ```
 
+### Pre-Loading
+
+This module attaches a static `preload` method to components that can be invoked to optimistically
+pre-load a component. This method returns a `Promise` that will resolve when the component has loaded.
+
+```ts
+import { lazy } from '@darkobits/react-lazy-named';
+
+const { Foo } = lazy(async () => import('./Components.tsx'));
+
+await Foo.preload();
+```
+
 ## Caveats
 
 - When using this (or other solutions) to circumvent the [default export requirement](https://reactjs.org/docs/code-splitting.html#named-exports),
-  tree-shaking will not work on the imported module.
+  tree-shaking will not work on the imported module. In most cases, this should not be an issue.
 
 ## Addendum
 

@@ -4,6 +4,9 @@ import React from 'react';
 interface PreLoadableLazyExoticComponent<
   T extends React.ComponentType<any>
 > extends React.LazyExoticComponent<T> {
+  /**
+   * Optimistically pre-load the component.
+   */
   preload: () => Promise<void>;
 }
 
