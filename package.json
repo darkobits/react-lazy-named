@@ -1,6 +1,6 @@
 {
   "name": "@darkobits/react-lazy-named",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "license": "WTFPL",
   "description": "Use named exports with `React.lazy`.",
   "author": "darkobits",
