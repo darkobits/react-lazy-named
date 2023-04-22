@@ -3,7 +3,7 @@
 </a>
 <p align="center">
   <a href="https://www.npmjs.com/package/@darkobits/react-lazy-named"><img src="https://img.shields.io/npm/v/@darkobits/react-lazy-named.svg?style=flat-square"></a>
-  <a href="https://github.com/darkobits/react-lazy-named/actions?query=workflow%3Aci"><img src="https://img.shields.io/github/workflow/status/darkobits/react-lazy-named/ci/master?style=flat-square"></a>
+  <a href="https://github.com/darkobits/react-lazy-named/actions?query=workflow%3Aci"><img src="https://img.shields.io/github/actions/workflow/status/darkobits/react-lazy-named/ci.yml?style=flat-square"></a>
   <a href="https://app.codecov.io/gh/darkobits/react-lazy-named/branch/master"><img src="https://img.shields.io/codecov/c/github/darkobits/react-lazy-named/master?style=flat-square"></a>
   <a href="https://depfu.com/github/darkobits/react-lazy-named"><img src="https://img.shields.io/depfu/darkobits/react-lazy-named?style=flat-square"></a>
   <a href="https://conventionalcommits.org"><img src="https://img.shields.io/static/v1?label=commits&message=conventional&style=flat-square&color=398AFB"></a>
