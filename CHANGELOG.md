@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.2.1](https://github.com/darkobits/react-lazy-named/compare/v0.2.0...v0.2.1) (2023-04-22)
+
+
+### 📖 Documentation
+
+* Update README. ([af5162a](https://github.com/darkobits/react-lazy-named/commit/af5162a3162a67746e6078c36891eeab32cad662))
+
 ## [0.2.0](https://github.com/darkobits/react-lazy-named/compare/v0.1.1...v0.2.0) (2023-04-22)
 
 
