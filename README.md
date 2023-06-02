@@ -9,6 +9,10 @@
   <a href="https://conventionalcommits.org"><img src="https://img.shields.io/static/v1?label=commits&message=conventional&style=flat-square&color=398AFB"></a>
 </p>
 
+> 💡 This package is now a part of [`@darkobits/react-kit`](https://github.com/darkobits/react-kit). Check it out there!
+
+---
+
 - Lazily import React components that are defined using named exports.
 - Supports destructuring syntax, including nesting.
 - 100% type-safe.
